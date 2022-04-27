@@ -27,7 +27,7 @@ function on_load (callback) {
 
 function replace_button () {
   let button = document.querySelector(`a[href*="${follow_link}"]`);
-  button.innerHTML = `See @${my_instance}`;
+  button.innerText = `See @${my_instance}`;
   button.href = get_redirect_url();
   button.target = "_self";
   button.classList.remove("modal-button");
