@@ -26,7 +26,7 @@ function on_load (callback) {
 }
 
 function replace_button () {
-  let button = document.querySelectorAll(`a[href*="${follow_link}"]`)[0];
+  let button = document.querySelector(`a[href*="${follow_link}"]`);
   button.innerHTML = `See @${my_instance}`;
   button.href = get_redirect_url();
   button.target = "_self";
