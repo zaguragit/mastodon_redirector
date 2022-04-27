@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "Mastodon Redirector",
-  "version": "1.0",
+  "version": "22.0",
 
   "description": "Replaces the follow button on other instances with a button, that redirects you to your instance, so you can follow, or interact with a user's content",
 
